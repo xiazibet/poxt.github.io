@@ -1,0 +1,37 @@
+[[main]]
+  name = "Home"
+  url = ""
+  weight = -110
+
+# Submenus are done this way: parent -> identifier
+[[main]]
+  name = "Tools"
+  identifier = "Tools"
+  weight = -108
+[[main]]
+  parent = "Tools"
+  name = "java.lang.Runtime.exec() Payload Workarounds"
+  url = "http://jackson-t.ca/runtime-exec-payloads.html"
+[[main]]
+  parent = "Tools"
+  name = "Reverse Shell Generator"
+  url = "https://weibell.github.io/reverse-shell-generator/"
+[[main]]
+  parent = "Tools"
+  name = "LOLBAS"
+  url = "https://lolbas-project.github.io/"
+
+[[main]]
+  name = "Words"
+  url = "/words/"
+  weight = -107
+
+[[main]]
+  name = "Note"
+  url = "/note/"
+  weight = -106
+
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = -105

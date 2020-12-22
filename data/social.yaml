@@ -1,0 +1,8 @@
+# Show or hide by uncommenting and vice versa
+- item: "github"
+  url: "https://github.com/Y4er"
+- item: "twitter"
+  url: "https://twitter.com/Y4er_ChaBug"
+- item: "rss"
+  url: "index.xml"
+  internal:  true
